@@ -1,0 +1,58 @@
+.bo {
+  background-color: rgb(211, 7, 7);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+.bo:hover {
+  opacity: 0.8;
+}
+.bo:active {
+  opacity: 0.4;
+}
+.re {
+  background-color: white;
+  border-color: rgb(2, 137, 255);
+  color: rgb(2, 137, 255);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 1s, color 1s;
+}
+.re:hover {
+  background-color: rgb(2, 137, 255);
+  color: white;
+}
+.re:active {
+  opacity: 0.7;
+}
+.mi {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.mi:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
